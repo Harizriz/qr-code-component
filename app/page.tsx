@@ -3,7 +3,7 @@ import QRCode from '../images/image-qr-code.png'
 
 export default function Page() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-light-gray shadow-sm">
+    <main className="flex min-h-screen items-center justify-center bg-light-gray shadow-sm">
       <div className="flex max-h-max max-w-[300px] flex-col justify-center rounded-2xl bg-white p-4 shadow-lg">
         <div className="rounded-lg">
           <Image src={QRCode} alt="qr-code" className="h-72 w-72 rounded-xl" />
@@ -16,6 +16,6 @@ export default function Page() {
           to the next level
         </p>
       </div>
-    </div>
+    </main>
   )
 }
