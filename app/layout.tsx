@@ -2,7 +2,8 @@ import './globals.css'
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" title="QR Code Component">
+    <html lang="en">
+      <title>QR Code Component</title>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
